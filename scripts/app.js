@@ -16,7 +16,7 @@ fetch(`http://nhubrecorder.herokuapp.com/all`, {
                  }).then(function(res){
                   var tex  = '<ol>'
                   for (var i = res.data.length - 1; i >= 0; i--) {
-                   tex = `${tex}<li class="links" ><a target="_blank" href="http://localhost:8086/v/v/?v=${res.data[i]._id}">${res.data[i]._id}</a></li>`
+                   tex = `${tex}<li class="links" ><a target="_blank" href="http://nhubrecorder.herokuapp.com/v/v/?v=${res.data[i]._id}">${res.data[i]._id}</a></li>`
                    //  var servContainer = document.createElement('article');
                    // var servLabel = document.createElement('li');
                    //  console.log(res.data[i]._id)
