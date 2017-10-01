@@ -136,7 +136,7 @@ if (navigator.getUserMedia) {
                     uploadFile(file, response.signedRequest, response.url)
                   }
                   else{
-                    alert('could not get signed URL');
+                    // alert('could not get signed URL');
                   }
                 }
               };
@@ -153,7 +153,7 @@ if (navigator.getUserMedia) {
                      uploadLink(url)
                   }
                   else{
-                    alert('could not upload file');
+                    // alert('could not upload file');
                   }
                 }
               };
