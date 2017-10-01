@@ -3,7 +3,7 @@
 
 ///////////////////////////////////////////////////////////
 function getLink(){
-fetch(`http://localhost:8086/all`, {
+fetch(`http://nhubrecorder.herokuapp.com/all`, {
 // fetch(`http://nhubrecorder.herokuapp.com/all`, {
                     method: 'GET',
                       headers: new Headers({
